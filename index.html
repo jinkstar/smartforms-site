@@ -1,36 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartForms - Smarter Forms for Smarter People</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartForms - Fast, Elegant Form Builder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2d9d5e62e.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #eef4ff, #f9fbff);
+      color: #2b2e4a;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 30px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    header i {
+      font-size: 30px;
+      color: #ffffff;
+    }
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      font-weight: 800;
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 40px;
+      color: #4a4a4a;
+    }
+    .cta-button {
+      font-size: 20px;
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 60px 20px;
+      gap: 40px;
+    }
+    .feature {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+      max-width: 300px;
+      text-align: center;
+    }
+    .feature i {
+      font-size: 40px;
+      color: #007bff;
+      margin-bottom: 15px;
+    }
+    .feature h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+    .feature p {
+      color: #666;
+      font-size: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #f1f5f9;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>SmartForms</h1>
-        <p>Smarter Forms for Smarter People</p>
-    </header>
-    <main>
-        <section>
-            <h2>What We Do</h2>
-            <p>Create beautiful, dynamic, PDF-generating forms for health & safety, compliance, and audits.</p>
-        </section>
-        <section>
-            <h2>Who It's For</h2>
-            <p>Ideal for safety officers, small businesses, and contractors.</p>
-        </section>
-        <section>
-            <h2>Why SmartForms?</h2>
-            <ul>
-                <li>Fillable and professional forms</li>
-                <li>Instant PDF generation</li>
-                <li>No coding skills needed</li>
-            </ul>
-        </section>
-        <footer>
-            <p>&copy; 2025 SmartForms</p>
-        </footer>
-    </main>
+  <header>
+    <h1><i class="fas fa-bolt"></i> SmartForms</h1>
+    <span>Superfast, Zero-Code Form Builder</span>
+  </header>
+
+  <section class="hero">
+    <h2>Build Beautiful Forms In Seconds</h2>
+    <p>No code. No stress. Just powerful, ready-to-go forms for smart teams.</p>
+    <a href="#" class="cta-button">Try It Now</a>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <i class="fas fa-magic"></i>
+      <h3>Drag & Drop Simplicity</h3>
+      <p>Create stunning forms with clicks — not code.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-paint-brush"></i>
+      <h3>Modern Styling</h3>
+      <p>Polished UI, mobile-friendly layouts, and beautiful fonts out-of-the-box.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Data Safe</h3>
+      <p>Secure submissions, PDF backups, and smart storage built-in.</p>
+    </div>
+    <div class="feature">
+      <i class="fas fa-rocket"></i>
+      <h3>Lightning Fast</h3>
+      <p>Hosted locally or online. Launch in seconds with zero dependencies.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 SmartForms — Built for makers, by makers.
+  </footer>
 </body>
 </html>
